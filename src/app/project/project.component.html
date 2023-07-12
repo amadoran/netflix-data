@@ -20,8 +20,45 @@
         </div>
       </div>
     </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Cast</th>
+            <th scope="col">Country</th>
+            <th scope="col">Date Added</th>
+            <th scope="col">Description</th>
+            <th scope="col">Director</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Listed In</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Release Year</th>
+            <th scope="col">Show Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let datum of data">
+            <td>{{ datum["cast"] }}</td>
+            <td>{{ datum["country"] }}</td>
+            <td>{{ datum["date_added"] }}</td>
+            <td>{{ datum["description"] }}</td>
+            <td>{{ datum["director"] }}</td>
+            <td>{{ datum["duration"] }}</td>
+            <td>{{ datum["listed_in"] }}</td>
+            <td>{{ datum["rating"] }}</td>
+            <td>{{ datum["release_year"] }}</td>
+            <td>{{ datum["show_id"] }}</td>
+            <td>{{ datum["title"] }}</td>
+            <td>{{ datum["type"] }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <!-- Project One Row-->
-    <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+    <!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
       <div class="col-lg-6">
         <img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." />
       </div>
@@ -38,9 +75,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Project Two Row-->
-    <div class="row gx-0 justify-content-center">
+    <!-- <div class="row gx-0 justify-content-center">
       <div class="col-lg-6">
         <img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." />
       </div>
@@ -57,6 +94,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
