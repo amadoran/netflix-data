@@ -1,0 +1,49 @@
+video {
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.masthead{
+    text-align: center;
+}
+
+#titulo {
+    background: none;
+    -webkit-text-fill-color: #831010;
+}
+
+#boton {
+    padding: 15px 30px;
+    cursor: pointer;
+    text-align: center;	
+    color: #fff;
+    background-color: #000000;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+#boton:hover {
+    background-color:  #db000079
+}
+  
+#boton:active {
+    background-color: #83101088;
+    box-shadow: 0 1px #564d4d78;
+    transform: translateY(1px);
+}
+ 
+@media only screen and (min-width: 992px) {
+    #contenedor-masthead {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+} 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-masthead',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./masthead.component.css']
 })
 export class MastheadComponent {
+  public isMobileScreen: boolean = false;
 
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkScreenSize();
+  }
+
+  private checkScreenSize() {
+    this.isMobileScreen = window.innerWidth <= 450;
+  }
 }

@@ -6,20 +6,22 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { NavigationComponent } from './navigation/navigation.component';
 import { MastheadComponent } from './masthead/masthead.component';
-import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { PiechartComponent } from './piechart/piechart.component';
+import { TablefilmComponent } from './tablefilm/tablefilm.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     MastheadComponent,
-    AboutComponent,
     ProjectComponent,
-    FooterComponent
+    FooterComponent,
+    PiechartComponent,
+    TablefilmComponent
   ],
   imports: [
     BrowserModule,
