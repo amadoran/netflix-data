@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1692165451724,
+  "index": "/netflix-data/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/netflix-data/favicon.ico",
+        "/netflix-data/index.html",
+        "/netflix-data/main.5466aacef676dcc9.js",
+        "/netflix-data/manifest.webmanifest",
+        "/netflix-data/polyfills.c8076c3aee7dcb10.js",
+        "/netflix-data/runtime.f4799bfa254b4566.js",
+        "/netflix-data/scripts.517b05c4ebb198b3.js",
+        "/netflix-data/styles.77886c6ad4c55307.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/netflix-data/assets/icons/icon-128x128.png",
+        "/netflix-data/assets/icons/icon-144x144.png",
+        "/netflix-data/assets/icons/icon-152x152.png",
+        "/netflix-data/assets/icons/icon-192x192.png",
+        "/netflix-data/assets/icons/icon-384x384.png",
+        "/netflix-data/assets/icons/icon-512x512.png",
+        "/netflix-data/assets/icons/icon-72x72.png",
+        "/netflix-data/assets/icons/icon-96x96.png",
+        "/netflix-data/assets/img/backgroundImageNetflix.jpg",
+        "/netflix-data/assets/img/bg-masthead.jpg",
+        "/netflix-data/assets/img/bg-signup.jpg",
+        "/netflix-data/assets/img/demo-image-01.jpg",
+        "/netflix-data/assets/img/demo-image-02.jpg",
+        "/netflix-data/assets/img/ipad.png",
+        "/netflix-data/assets/video/backgroundVideoNetflixDesktop.mp4",
+        "/netflix-data/assets/video/backgroundVideoNetflixMobile.mp4",
+        "/netflix-data/bg-signup.e6c2ee8f92d8fd94.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/netflix-data/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/netflix-data/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/netflix-data/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/netflix-data/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/netflix-data/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/netflix-data/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/netflix-data/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/netflix-data/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/netflix-data/assets/img/backgroundImageNetflix.jpg": "8e002cdc9bcd5e86a00437614863250d360e3cb3",
+    "/netflix-data/assets/img/bg-masthead.jpg": "a4690a549cb2f8b599dd904392eeb7d3aa43a287",
+    "/netflix-data/assets/img/bg-signup.jpg": "29551a2dbd3f9217289cc2994925daac0757bae9",
+    "/netflix-data/assets/img/demo-image-01.jpg": "694fed6b23e2fd38422110956f47f1df6bfe5e50",
+    "/netflix-data/assets/img/demo-image-02.jpg": "e7ff890fb2bfb30c87e2f12f133095ab2d60ebb9",
+    "/netflix-data/assets/img/ipad.png": "7f2c8bc9bcba135a815829179b6885ca7ad569c4",
+    "/netflix-data/assets/video/backgroundVideoNetflixDesktop.mp4": "c7aa80d5db9fc7580f41b51efd9f59619050d1c1",
+    "/netflix-data/assets/video/backgroundVideoNetflixMobile.mp4": "531206212ac399381c76c45de3bec60b10f019ef",
+    "/netflix-data/bg-signup.e6c2ee8f92d8fd94.jpg": "29551a2dbd3f9217289cc2994925daac0757bae9",
+    "/netflix-data/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/netflix-data/index.html": "1678b80c47a741d582bd0e87257e254cb63a7de6",
+    "/netflix-data/main.5466aacef676dcc9.js": "960cf932637d0f83b9efd3bbe3e8dc9d418e9180",
+    "/netflix-data/manifest.webmanifest": "2c92a16c5afe0a454c961c848fcb28d63841e650",
+    "/netflix-data/polyfills.c8076c3aee7dcb10.js": "5b6b2f1bf7183e4bc0962cc7a42a818dc8b25ffc",
+    "/netflix-data/runtime.f4799bfa254b4566.js": "a380bf60589118f87b54e32d3ce1dd96962651e0",
+    "/netflix-data/scripts.517b05c4ebb198b3.js": "59e96f03f51ee4c71e37abfbaffb78f536d6ff2c",
+    "/netflix-data/styles.77886c6ad4c55307.css": "f5af5c2dae506965b2452775c473c594778c53e3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
